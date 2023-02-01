@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.container-fluid {
+    padding: 0 28px !important;
+}
+.bg-light {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    /* background-color: #fff !important; */
+    background-color: hsla(0, 0%, 95.3%, 0.75) !important;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.head-main {
+    position: fixed;
+    width: 100%;
+}
+
+
+.head-main .navbar {
+    z-index: 1;
+    position: sticky;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item:hover a {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-item .active {
+    font-weight: 500 !important;
+    border-bottom: solid 3px #01875f;
+    color: #01875f !important;
+    /* border-end-start-radius: 100px;
+    border-end-end-radius: 100px; */
+}
+
+.navbar-icon {
+    padding: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.navbar-icon:hover, .avatar:hover {
+    background-color: rgba(161, 161, 161, 0.2);
+    cursor: pointer;
+}
+
+.avatar {
+    padding: 5px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.nav-mobile {
+    margin-bottom: 100px;
+}
+
+.nav-mobile ul li {
+    display: inline-block;
+}
+
+.nav-mobile ul li a {
+    color: gray;
+}
+
+.nav-mobile ul li:hover a {
+    color: #000;
+}
+
+.menu-nav-mobile {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav-mobile .active {
+    color: #01875f;
+}
+
+/* content */
+
+.menu-content {
+    padding: 0;
+}
+
+.content .nav-content ul li {
+    display: inline-block;
+    margin: 10px 4px 0px 4px;
+    border-radius: 100px;
+}
+.content .nav-content ul li a {
+    border: solid 1px rgba(65, 65, 65, 0.2);
+    border-radius: 100px;
+}
+
+
+.content .nav-content ul li:hover {
+    background-color: rgba(211, 211, 211, 0.2);
+    opacity: 0.9;
+}
+
+.content .nav-content ul li a {
+    color: gray;
+    font-weight: 500;
+}
+
+.nav-content .nav-link {
+    width: fit-content !important;
+    padding: 3px 18px !important;
+}
+
+.nav-content .nav-item .active {
+    color: #056449;
+    border: none;
+    background-color: #e6f3ef;
+}
+
+/* main content */
+
+.main-content {
+    padding-top: 114px;
+    margin-bottom: 10px;
+}
+
+.img-main-content {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.box-content {
+    justify-items: center;
+    display: flex;
+    margin: 12px 0;
+}
+
+.box-content .rank {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box-content .infor {
+    margin: 5px;
+    display: inline-block;
+}
+
+.box-content .infor .title {
+    font-weight: 500;
+    font-size: 17px;
+    max-width: 135px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box-content .infor .category {
+    color: #5f5f5f;
+    font-size: 14px;
+}
+
+.box-content .infor .rating {
+    color: #5f5f5f;
+    font-size: 14px;
+}
+
+.box-suggest {
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.box-suggest:hover {
+    background-color: rgba(197, 193, 193, 0.2);
+    cursor: pointer;
+}
+
+.cover .cover-suggest {
+    min-height: 232px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.box-suggest .infor .title {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.footer {
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.fotter-title p {
+    color: #5f5f5f;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.list-footer {
+    padding: 0;
+}
+
+.list-footer li {
+    list-style: none;
+}
+
+.list-footer li a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.list-footer li a:hover {
+    color: #056449;
+}
+
+.footer-info {
+    padding: 0;
+}
+
+.footer-info ul {
+    padding: 0;
+}
+
+.footer-info ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.footer-info ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #383737;
+}
+
+.footer-info ul li:hover a {
+    color: #056449;
+}
+
+.language {
+    font-size: 12px;
+    text-decoration: none;
+    color: #383737;
+    display: flex;
+    Justify-content: right;
+}
+
+.language:hover {
+    color: #056449;
+}
